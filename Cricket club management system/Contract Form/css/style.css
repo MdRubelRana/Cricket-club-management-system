@@ -1,0 +1,129 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+.formBox {
+  margin-top: 50px;
+  padding: 50px;
+}
+
+h1 {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  ;
+  margin-bottom: 50px !important;
+  text-transform: uppercase;
+  font-size: 50px;
+  color: #fff;
+  font-family: 'Trocchi', serif;
+  background-color: #00bcd4;
+  border-radius: 4px;
+  padding: 16px 32px;
+}
+
+.name-player {
+  margin: 0;
+  padding: 0;
+  margin-top: 5px;
+  margin-bottom: 25px !important;
+  text-transform: default;
+  font-size: 20px;
+  color: #fff;
+  font-family: 'Trocchi', serif;
+  background-color: rgba(0, 188, 212, 0.9);
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 20px;
+  padding: 8px 16px;
+}
+
+.inputBox {
+  position: relative;
+  box-sizing: border-box;
+  margin-bottom: 30px;
+}
+
+.input {
+  position: relative;
+  width: 100%;
+  height: 50px;
+  background: transparent;
+  border: none;
+  outline: none;
+  font-size: 16px;
+  color: #708090;
+  border-bottom: 2px solid rgba(0, 188, 212, 0.3);
+}
+
+.inputText {
+  position: absolute;
+  line-height: 50px;
+  font-size: 16px;
+  transition: 0.5s;
+  opacity: 0.5;
+}
+
+.focus .inputText {
+  transform: translateY(-30px);
+  font-size: 14px;
+  opacity: 1;
+  color: #00bcd4;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.contract-button {
+  width: 100%;
+  background-color: white;
+  border-radius: 4px;
+  font-size: 24px;
+  cursor: pointer;
+  text-transform: uppercase;
+  font-weight: bold;
+  padding: 16px 32px;
+  transition-duration: 0.5s;
+  border: 2px solid #00bcd4;
+  color: #00bcd4;
+}
+
+.contract-button:hover {
+  background-color: #00bcd4;
+  color: white;
+}
+
+#table-head {
+  color: #00bcd4;
+  font-family: 'Trocchi', serif;
+  text-align: center;
+  margin-bottom: 50px !important;
+  text-transform: uppercase;
+  font-size: 16px;
+}
+
+#table-body input {
+  color: #708090;
+  border: 1.5px solid rgba(0, 188, 212, 0.2);
+  border-radius: 4px;
+  padding: 4px 8px;
+}
+
+.team-info {
+  text-align: center;
+}
+
+.terms-conditions {
+  margin-left: 20px;
+}
+
+.copyright {
+  margin-top: 200px;
+  background: #00bcd4;
+  color: #FFF;
+  padding-top: 10px;
+  padding-bottom: 0.5px;
+  text-align: center;
+  font-size: 12px;
+}

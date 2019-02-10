@@ -1,0 +1,108 @@
+body {
+  padding: 0;
+  margin: 0;
+  font-family: sans-serif;
+}
+
+input {
+  text-align: left;
+}
+
+#profile-body {
+  margin-top: 160px;
+}
+
+.navbar {
+  background-color: #FFF;
+  padding: 0.5% 0;
+  font-size: 10px;
+}
+
+.navbar-brand {
+  min-height: 55px;
+  padding: 0 15px 5px;
+}
+
+.navbar-default .navbar-nav li {
+  display: block;
+}
+
+.navbar-default .navbar-nav li a {
+  color: #23415c;
+}
+
+.navbar-default .navbar-nav li a:hover, .navbar-default .navbar-nav li a.active {
+  color: #23415c;
+}
+
+.navbar-default .navbar-nav li a {
+  display: block;
+  width: 100%;
+  background-color: white;
+  /* border-radius: 4px; */
+  font-size: 12px;
+  border-bottom: 2px solid transparent;
+  text-transform: uppercase;
+  font-weight: bold;
+  padding: 14px 20px;
+  color: #355681;
+}
+
+.navbar-default .navbar-nav li a.active {
+  border-bottom: 2px solid #355681;
+  border-width: thin;
+  color: #355681;
+}
+
+.navbar-default .navbar-nav li a:hover, .navbar-default .navbar-nav li a.active {
+  border-bottom: 2px solid #355681;
+  border-width: thin;
+  color: #355681;
+}
+
+.panel-heading {
+  font-size: 22px;
+}
+
+.welcome-profile {
+  text-align: right;
+}
+
+.glyphicon.glyphicon-cog {
+  font-size: 15px;
+}
+
+.copyright {
+  margin-top: 180px;
+  color: #FFF;
+  background-color: #23415C;
+  padding: 0.5% 0.5% 0.5% 0.5%;
+  text-align: center;
+  font-weight: bold;
+}
+
+.blinking {
+  animation: blinkingText 1s infinite;
+}
+
+@keyframes blinkingText {
+  0% {
+    color: #23415C;
+  }
+
+  49% {
+    color: transparent;
+  }
+
+  50% {
+    color: transparent;
+  }
+
+  99% {
+    color: transparent;
+  }
+
+  100% {
+    color: green;
+  }
+}
