@@ -1,1 +1,1 @@
-# Cricket-club-management-system
+# Cricket Club Management System
